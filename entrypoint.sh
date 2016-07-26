@@ -14,4 +14,3 @@ chown "$SINUS_USER":"$SINUS_GROUP" -R "$SINUS_DATA"
 
 echo "Starting TeamSpeak SinusBot ..."
 sudo -u "$SINUS_USER" -g "$SINUS_GROUP" ./"$SINUS_DIR/sinusbot"
-#sudo -u "$SINUS_USER" -g "$SINUS_GROUP" xinit "$SINUS_DIR/ts3bot" -- /usr/bin/Xvfb :1 -screen 0 800x600x16 -ac

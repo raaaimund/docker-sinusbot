@@ -1,6 +1,7 @@
 FROM debian:jessie
 
-MAINTAINER Alexander Trost <galexrt@googlemail.com>
+MAINTAINER Raimund Rittnauer <raimund@rittnauer.at>
+# ORIGINAL MAINTAINER Alexander Trost <galexrt@googlemail.com>
 
 ENV SINUS_USER="sinusbot" \
     SINUS_GROUP="sinusbot" \
@@ -8,7 +9,7 @@ ENV SINUS_USER="sinusbot" \
     SINUS_DATA="$SINUS_DIR/data" \
     YTDL_BIN="/usr/local/bin/youtube-dl" \
     TS3_DIR="$SINUS_DIR/TeamSpeak3-Client-linux_amd64" \
-    SINUS_BETA_VERSION="0.9.12.2-58b509d" \
+    SINUS_BETA_VERSION="0.9.12.3-e018f94" \
     YTDL_VERSION="latest" \
     TS3_VERSION="3.0.18.2" \
     TS3_OFFSET="25000" \
